@@ -1,16 +1,23 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-driving</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <!-- Main content -->
     <canvas id="carCanvas"></canvas>
+    
     <div id="verticalButtons">
         <button onclick="save()">💾</button>
         <button onclick="discard()">🗑️</button>
     </div>
+    
     <canvas id="networkCanvas"></canvas>
+    
+    <!-- Scripts -->
     <script src="visualizer.js"></script>
     <script src="network.js"></script>
     <script src="sensor.js"></script>
@@ -21,3 +28,4 @@
     <script src="main.js"></script>
 </body>
 </html>
+
